@@ -62,7 +62,7 @@ function enviarEmail(){
     body = body + "Sin más por el momento nos despedimos."
   }  
   Logger.log(body);
-  //GmailApp.sendEmail(email, subject, body); 
+  GmailApp.sendEmail(email, subject, body); 
 }
 
   
